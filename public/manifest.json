@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "SolanaM Image Studio",
+  "version": "1.0.0",
+  "description": "Professional image processing tool for designers and artists - Part of SolanaM platform",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "SolanaM Image Studio"
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
